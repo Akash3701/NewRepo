@@ -6,4 +6,6 @@ public interface ChatBotDaoInterface {
 
 	int createAccount(UserInfoEntity ue);
 
+	UserInfoEntity viewAccount(UserInfoEntity user);
+
 }

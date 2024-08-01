@@ -4,6 +4,8 @@ import com.ChatBot.entity.UserInfoEntity;
 
 public interface AdminServiceInterface {
 
-	int createUserProfile(UserInfoEntity ue);
+	int createAccount(UserInfoEntity ue);
+
+	UserInfoEntity viewAccount(UserInfoEntity user);
 
 }

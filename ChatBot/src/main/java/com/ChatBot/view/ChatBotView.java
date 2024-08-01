@@ -15,7 +15,8 @@ public class ChatBotView {
 		System.out.println("Enter 3 to Delete Account");
 		System.out.println("Enter 4 to View Account");
 		System.out.println("Enter 5 to View All Account");
-		System.out.println("Enter 6 to Login Account");
+		System.out.println("Enter 6 to Search Account");
+		System.out.println("Enter 7 to Login Account");
 		
 		System.out.println("Enter your choice: ");
 		int ch = scanner.nextInt();
@@ -33,13 +34,14 @@ public class ChatBotView {
 			break;
 		case 5: ci.viewAllAccount();
 			break;
-		case 6: ci.loginAccount();
+		case 6: ci.searchAccount();
+			break;
+		case 7: ci.loginAccount();
 			break;
 		default: System.out.println("Error");
 			break;
 		}
 		
 		scanner.close();
-		//chandramohan4854
 	}
 }

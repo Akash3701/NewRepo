@@ -14,4 +14,6 @@ public interface ChatBotControllerInterface {
 
 	void loginAccount();
 
+	void searchAccount();
+
 }
