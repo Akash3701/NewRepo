@@ -29,7 +29,7 @@ public class ChatBotController implements ChatBotControllerInterface {
 		AdminServiceInterface ai = new AdminService();
 		int i = ai.createUserProfile(ue);
 		
-		if(i<0) {
+		if(i>0) {
 			System.out.println("Created");
 		}else {
 			System.out.println("Failed");

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.ChatBot.controller"},{"l":"com.ChatBot.dao"},{"l":"com.ChatBot.entity"},{"l":"com.ChatBot.service"},{"l":"com.ChatBot.view"}];updateSearchResults();

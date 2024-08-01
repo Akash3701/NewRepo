@@ -1,0 +1,6 @@
+com.ChatBot
+com.ChatBot.controller
+com.ChatBot.dao
+com.ChatBot.entity
+com.ChatBot.service
+com.ChatBot.view
